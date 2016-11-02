@@ -1,0 +1,8 @@
+LICENSE
+
+/MiniProfilerDemo/packages/*
+/MiniProfilerDemo/TaskRule/App_Data/*
+/MiniProfilerDemo/TaskRule/obj/*
+/MiniProfilerDemo/TaskRule/Content/*
+/MiniProfilerDemo/TaskRule/Properties/*
+/MiniProfilerDemo/TaskRule/Scripts/*
