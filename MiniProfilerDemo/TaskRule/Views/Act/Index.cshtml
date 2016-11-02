@@ -1,0 +1,53 @@
+﻿@model List<TaskRule.Models.Act_Record>
+
+@{
+    ViewBag.Title = "充值记录";
+}
+
+<table>
+    <tr>
+        <th>
+            用户名
+        </th>
+        <th>
+            ActID
+        </th>
+        <th>
+            ShareTime
+        </th>
+        <th>
+            Stype
+        </th>
+        <th>
+            Code
+        </th>
+        <th>
+            Status
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Uid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ActID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShareTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Stype)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+    </tr>
+}
+
+</table>
